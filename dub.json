@@ -1,0 +1,10 @@
+{
+    "name": "sound-processing",
+    "description": "Processes sounds",
+    "authors": ["Munchii"],
+    "license": "MIT",
+
+    "dependencies": {
+        "dlib": "~>0.17.0"
+    }
+}
