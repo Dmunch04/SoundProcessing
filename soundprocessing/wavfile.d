@@ -1,4 +1,4 @@
-module soundprocessing.wavfile;
+module soundprocessing;
 
 import std.conv;
 
