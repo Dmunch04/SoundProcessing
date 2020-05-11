@@ -22,3 +22,17 @@ docs/
 
 # Code coverage
 *.lst
+
+*.a
+*.lib
+
+*~
+dub.selections.json
+
+__test__library__
+tests
+
+# this one doesnt matter
+sound-processing
+# -
+sound-processing-test-library
