@@ -1,4 +1,4 @@
-module soundprocessing;
+module soundprocessing.wavfile;
 
 import std.conv;
 
@@ -159,7 +159,6 @@ unittest
     
     WavFile test2 = new WavFile("Assets/Sound2.wav");
     test2.setPitch(78_000);
-    writeln(test2.duration());
     test2.setDuration(test2.sound().duration - 1);
 
     test1.combine(test2);

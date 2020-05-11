@@ -8,24 +8,6 @@
     "dependencies": {
         "dlib": "~>0.17.0"
     },
-    "importPaths": [
-        "."
-    ],
-    "buildRequirements": [
-        "allowWarnings"
-    ],
-    "lflags-linux-gdc": ["-lz"],
-    "configurations": [
-        {
-            "name": "library",
-            "targetType": "library",
-            "sourcePaths": ["soundprocessing"]
-        },
-        {
-            "name": "import",
-            "targetType": "sourceLibrary",
-            "sourceFiles-posix": ["libsound-processing.a"],
-            "sourceFiles-windows": ["sound-processing.lib"]
-        }
-    ]
+
+    "sourcePaths": ["source"]
 }
